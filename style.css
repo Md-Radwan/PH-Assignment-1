@@ -101,3 +101,48 @@
     color: white;
     background-color: #1D4ED8;
 }
+
+/* Meet the Speakers section css */
+.meet-speakers{
+    padding-top: 80px;
+}
+.meet-speakers h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64.4px;
+    text-align: center;
+}
+.speaker-grid{
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    gap: 32px;
+}
+.speaker-box{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: fit-content;
+}
+.speaker-details{
+    padding: 24px;
+}
+.speaker-details h5{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2563EB;
+}
+.speaker-details h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    padding: 8px 0px;
+}
+.speaker-details p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #575757;
+}
+.speaker-box img{
+    border-top-right-radius: 30px;
+}
