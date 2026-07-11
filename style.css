@@ -117,6 +117,7 @@
     display: grid;
     grid-template-columns: repeat(2, 45%);
     gap: 32px;
+    justify-content: center;
 }
 .speaker-box{
     border: 1px solid #E5E7EB;
@@ -144,5 +145,109 @@
     color: #575757;
 }
 .speaker-box img{
-    border-top-right-radius: 30px;
+    border-radius: 12px 12px 0px 0px;
 }
+
+/* Secure your spot section css */
+#secure-section{
+  padding-top: 169px;
+  padding-bottom: 100px;
+}
+
+#secure-section h2{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0D1B2A;
+}
+#secure-section p{
+  text-align: center;
+  margin-top: 12px;
+  line-height: 24px;
+  color: #575757;
+}
+
+.secure-grid{
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+  gap: 24px;
+}
+.secure-grid-box{
+  padding: 32px;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+.secure-grid-box-ul{
+  color: #333333 !important;
+}
+.secure-grid-box p{
+  display: inline;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #888888;
+}
+.secure-grid-box h3{
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #0D1B2A;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.secure-grid-box ul{
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 21px;
+  color: #333333;
+  padding-left: 18px;
+}
+.secure-grid-btn{
+  display: flex;  
+  margin-top: 20px;
+}
+.secure-grid-btn button{
+  flex-grow: 1;
+  text-align: center;
+  padding: 11px 0px;
+  border-radius: 8px;
+  border: 1px solid #2563EB;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #2563EB;
+  background-color: white;
+}
+.highlighted-box{
+  border: 1px solid #0D1B2A;
+  background-color: #0D1B2A;
+}
+.highlighted-box h3{
+  color: white;
+}
+.highlighted-box p{
+  color: white !important;
+}
+.highlighted-box-p{
+  color: #93C5FD !important;
+}
+.highlighted-box-ul{
+  color: white !important;
+}
+.highlighted-box-btn button{
+  background-color: #2563EB;
+  color: white;
+}
+
+
+
