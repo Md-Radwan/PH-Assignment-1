@@ -115,7 +115,7 @@
 .speaker-grid{
     margin-top: 56px;
     display: grid;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(2, 644px);
     gap: 32px;
     justify-content: center;
 }
